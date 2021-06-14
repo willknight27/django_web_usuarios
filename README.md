@@ -10,6 +10,25 @@ python -m pip install djangorestframework
 python -m pip install django-cors-headers
 ```
 
+## Conexión de Django con Oracle XE
+
+_comandos para la conexcion con base de datos oracle_
+
+```
+pip install cx_Oracle
+```
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'localhost:1521/XEPDB1',
+        'USER': 'USER_NAME',
+        'PASSWORD': 'USER_PASSWORD',
+    }
+}
+```
+
 ## Creación de Proyecto
 
 _Comandos para creación de proyecto en Django_
