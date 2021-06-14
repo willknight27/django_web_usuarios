@@ -12,10 +12,10 @@ python -m pip install django-cors-headers
 
 ## Conexión de Django con Oracle XE
 
-_comandos para la conexcion con base de datos oracle_
+_Comandos para la conexión con base de datos Oracle_
 
 ```
-pip install cx_Oracle
+pip install cx_oracle
 ```
 
 ```
