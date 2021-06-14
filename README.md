@@ -1,5 +1,15 @@
 # Proyecto Django para la renderización de usuarios
 
+## Instalación de Django y Django REST Framework
+
+_Comandos para la instalación de Django y Django REST Framework_
+
+```
+python -m pip install django
+python -m pip install djangorestframework
+python -m pip install django-cors-headers
+```
+
 ## Creación de Proyecto
 
 _Comandos para creación de proyecto en Django_
